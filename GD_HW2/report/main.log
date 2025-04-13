@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.6)  12 APR 2025 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.6)  13 APR 2025 19:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1592,7 +1592,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has 
                                                   \__shipout_drop_firstpage_...
 l.390 \clearpage
                 ]
-<figures/lin.png, id=70, 1084.05pt x 361.35pt>
+<figures/lin.png, id=66, 1084.05pt x 361.35pt>
 File: figures/lin.png Graphic file (type png)
 <use figures/lin.png>
 Package pdftex.def Info: figures/lin.png  used on input line 419.
@@ -1615,20 +1615,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C3ADBBD15A0D0AEAFD989487914E9D84;659.
+(rerunfilecheck)             Checksum: D5ED627058BDB012224207C180F644A9;568.
  ) 
 Here is how much of TeX's memory you used:
- 14997 strings out of 474486
- 240131 string characters out of 5743756
+ 14995 strings out of 474486
+ 240111 string characters out of 5743756
  2015542 words of memory out of 5000000
- 36983 multiletter control sequences out of 15000+600000
+ 36982 multiletter control sequences out of 15000+600000
  735734 words of font info for 137 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  63i,15n,67p,616b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on main.pdf (4 pages, 339494 bytes).
+Output written on main.pdf (4 pages, 338837 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
