@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750774164.36896 "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/MCMC/report/main.tex" "main.pdf" "main" 1750774166.19215 0
+["pdflatex"] 1750858358.62667 "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/MCMC/report/main.tex" "main.pdf" "main" 1750858360.41771 0
   "C:/Users/marko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1744726569 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/marko/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741285665 24225045 9df87bb9afcf68668f63d57d7a3d7d4c ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -165,16 +165,16 @@
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/ucs/utf8x.def" 1700127473 8944 e3433baec74c4b7b278c6b6a547ff9ec ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/MCMC/report/main.tex" 1750774163 16423 5b5268c25e899e6db30700a5acc7440b ""
-  "figures/diff.png" 1750704234 27598 3dd1b811994f6f5d1481e49559dedb9b ""
-  "figures/exp_cov.png" 1750773922 25997 7564af669630df48d11f509b1c34d075 ""
-  "figures/exp_trace.png" 1750773922 344970 290048eeae80c8d775c5f81363b2608a ""
-  "figures/f.png" 1750760377 15929 6177d96c3ae923aa402d8767b84a6782 ""
-  "figures/mvn_cov.png" 1750773761 27483 89f39e9b9b0c7f8e8ce81912832a1cc3 ""
-  "figures/mvn_trace.png" 1750773760 400857 1202765af9b487eb2ab9d4e9b6551fc3 ""
-  "main.aux" 1750774165 4341 b7a84607a4a425859efd334051675e8b "pdflatex"
-  "main.out" 1750774165 3008 d03f7d8837c4a5be6299d8fc9f9ec60a "pdflatex"
-  "main.tex" 1750774163 16423 5b5268c25e899e6db30700a5acc7440b ""
+  "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/MCMC/report/main.tex" 1750774530 16422 f387695493c4e352442b97118b04fbfe ""
+  "figures/diff.png" 1750858335 27598 3dd1b811994f6f5d1481e49559dedb9b ""
+  "figures/exp_cov.png" 1750858357 25997 7564af669630df48d11f509b1c34d075 ""
+  "figures/exp_trace.png" 1750858356 344970 290048eeae80c8d775c5f81363b2608a ""
+  "figures/f.png" 1750858335 15929 6177d96c3ae923aa402d8767b84a6782 ""
+  "figures/mvn_cov.png" 1750858355 27483 89f39e9b9b0c7f8e8ce81912832a1cc3 ""
+  "figures/mvn_trace.png" 1750858354 400857 1202765af9b487eb2ab9d4e9b6551fc3 ""
+  "main.aux" 1750858360 4341 b7a84607a4a425859efd334051675e8b "pdflatex"
+  "main.out" 1750858360 3008 d03f7d8837c4a5be6299d8fc9f9ec60a "pdflatex"
+  "main.tex" 1750774530 16422 f387695493c4e352442b97118b04fbfe ""
   (generated)
   "main.aux"
   "main.log"
