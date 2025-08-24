@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1755959521.11124 "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Nelder_Mead/report/main.tex" "main.pdf" "main" 1755959522.11733 0
+["pdflatex"] 1756038261.3774 "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Nelder_Mead/report/main.tex" "main.pdf" "main" 1756038262.39784 0
   "C:/Users/marko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1744726569 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/marko/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741285665 24225045 9df87bb9afcf68668f63d57d7a3d7d4c ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -160,11 +160,11 @@
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/ucs/utf8x.def" 1700127473 8944 e3433baec74c4b7b278c6b6a547ff9ec ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Nelder_Mead/report/main.tex" 1755959520 8595 a043ce60590430caba71be5dce58891b ""
+  "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Nelder_Mead/report/main.tex" 1756038260 9897 9d2a82227de7d94838271afd8454d526 ""
   "figures/convergence1.png" 1755878424 10742 a16e2990081fec582a54d6d97a8534c5 ""
-  "main.aux" 1755959521 2194 1012ba579b14e7e6fc8937e01637e475 "pdflatex"
-  "main.out" 1755959521 464 3e516fcce5c3dfdda953a159e1018f52 "pdflatex"
-  "main.tex" 1755959520 8595 a043ce60590430caba71be5dce58891b ""
+  "main.aux" 1756038262 2665 6765e5c1efdc9eec780ec044bd9357ae "pdflatex"
+  "main.out" 1756038262 851 a336f33bf4f7e31f9e1e4e6fff6a990c "pdflatex"
+  "main.tex" 1756038260 9897 9d2a82227de7d94838271afd8454d526 ""
   (generated)
   "main.aux"
   "main.log"
