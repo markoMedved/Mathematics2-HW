@@ -1,0 +1,92 @@
+\documentclass[9pt]{IEEEtran}
+
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{array}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{longtable}
+\usepackage{supertabular}
+\usepackage{multicol}
+
+\usepackage[utf8x]{inputenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\graphicspath{{./figures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor trig-gs}
+
+% ============================================================================================
+
+\title{\vspace{0ex}
+Mathematics 2, Part 4, Homework 2}
+
+
+% ============================================================================================
+
+\begin{document}
+
+\maketitle
+\section{Duals and duals and duals}
+\subsection*{1)}
+For the first task, as instructed we can rewrite the (D) problem in the 
+standard form: 
+\[
+\begin{aligned}
+\max -b^\top y \\ 
+-A^\top y \le -c \\
+ y \ge 0
+\end{aligned}
+\]
+
+Then we can dualize according to the given pattern to get:
+\[
+\begin{aligned}
+\max -c^\top x \\ 
+-A^\top x \ge -b \\
+ x \ge 0
+\end{aligned}
+\]
+And finally by multiplying with -1, we get back to the (P) problem:
+\[
+\begin{aligned}
+\max c^\top x \\ 
+A^\top x \le b \\
+ x \ge 0
+\end{aligned}
+\]
+
+\subsection*{2)}
+For this problem we took the (P) and (D) problem from~\cite{mehlhorn2016still}:
+\[
+\begin{array}{l l}
+\centering
+\text{(P):} & \text{(D):} \\
+\min c^\top x & \max b^\top y \\
+Ax = b & A^\top y + s = c \\
+x \ge 0 & s \ge 0, \; y \in \mathbb{R}^m
+\end{array}
+\]
+We show that they are dual by starting from the (P) problem. 
+
+
+\bibliographystyle{plain}  
+\bibliography{report}
+\end{document}
