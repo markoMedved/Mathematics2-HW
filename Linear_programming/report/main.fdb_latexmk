@@ -1,16 +1,17 @@
 # Fdb version 4
-["bibtex main"] 1756566750.0622 "main.aux" "main.bbl" "main" 1756567740.85172 0
+["bibtex main"] 1756635218.84771 "main.aux" "main.bbl" "main" 1756635939.46004 0
   "./report.bib" 1756566522 282 2ea29e51dbbf68508e001ceff49cf29f ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1756567738 551 5a3d78df502721a5aca850ab718509cc "pdflatex"
+  "main.aux" 1756635938 717 2877f230a7a1e9dd39094001df46f9ab "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1756567736.45344 "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Linear_programming/report/main.tex" "main.pdf" "main" 1756567740.85259 0
+["pdflatex"] 1756635937.33567 "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Linear_programming/report/main.tex" "main.pdf" "main" 1756635939.461 0
   "C:/Users/marko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1744726569 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/marko/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741285665 24225045 9df87bb9afcf68668f63d57d7a3d7d4c ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
+  "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -61,9 +62,11 @@
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ts1-lmr9.tfm" 1256929440 1576 219e49590ff1846c6e9d9797f3bd2972 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1256929440 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
+  "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256929440 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb" 1256929440 31113 04b711c9a4c7f8cb4ed784c6fc4cc1c5 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb" 1256929440 30698 e53a423459271d6c5cdd91f7559396af ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256929440 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
+  "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb" 1256929440 123394 992f5e87d698d9e94717394c62580ea6 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb" 1256929440 121145 00b210fbe9efd7ce850c04e64670de9a ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb" 1256929440 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb" 1256929440 121065 ba8daf2228d9e511988917831f1e22e9 ""
@@ -163,11 +166,11 @@
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/ucs/utf8x.def" 1700127473 8944 e3433baec74c4b7b278c6b6a547ff9ec ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/marko/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Linear_programming/report/main.tex" 1756567734 2024 d8404d354e438e837c7e7a9426050ce9 ""
-  "main.aux" 1756567738 551 5a3d78df502721a5aca850ab718509cc "pdflatex"
-  "main.bbl" 1756566750 272 8d4f1e082c143ce9481474e0bcd6ffa3 "bibtex main"
-  "main.out" 1756567738 274 2f6fe5a62f86a94aa2da84af6afc36e5 "pdflatex"
-  "main.tex" 1756567734 2024 d8404d354e438e837c7e7a9426050ce9 ""
+  "c:/Users/marko/Desktop/Mathematics_2/Mathematics-2-homeworks/Linear_programming/report/main.tex" 1756635936 4950 c4da6911dae0df67c90043f7001cf497 ""
+  "main.aux" 1756635938 717 2877f230a7a1e9dd39094001df46f9ab "pdflatex"
+  "main.bbl" 1756635219 272 8d4f1e082c143ce9481474e0bcd6ffa3 "bibtex main"
+  "main.out" 1756635938 521 b884917f29984feb5d459553d4807cdf "pdflatex"
+  "main.tex" 1756635936 4950 c4da6911dae0df67c90043f7001cf497 ""
   (generated)
   "main.aux"
   "main.log"

@@ -84,7 +84,107 @@ Ax = b & A^\top y + s = c \\
 x \ge 0 & s \ge 0, \; y \in \mathbb{R}^m
 \end{array}
 \]
-We show that they are dual by starting from the (P) problem. 
+We show that they are dual by starting from the (D) problem. Firstly, 
+we eliminate the slack \textit{s} to get: $A^T y \le c$. Then we can 
+convert \textit{y} into nonnegative variables: $y = y_+ - y_-$. By doing that 
+we can rewrite the maximization to be:
+\[
+\max \;
+\begin{bmatrix}
+    b & -b
+\end{bmatrix}
+\begin{bmatrix}
+    y_+ \\ y_-
+\end{bmatrix}
+\]
+And the constraints:
+\[
+\begin{bmatrix}
+    A^T & -A^T
+\end{bmatrix}
+\begin{bmatrix}
+    y_+ \\ y_-
+\end{bmatrix} \le c, \begin{bmatrix}
+    y_+ \\ y_-
+\end{bmatrix} \ge 0
+\]
+By doing this we achieve the standard form and can now use the pattern formula 
+to get: 
+\[
+\begin{aligned}
+    \min \; c^T x \\[6pt]
+    \begin{bmatrix}
+        A^T & -A^T
+    \end{bmatrix} x \;\ge\;
+    \begin{bmatrix}
+        b \\ -b
+    \end{bmatrix} \\[6pt]
+    x \ge 0
+\end{aligned}
+\]
+If we look closely at the second line we can see that it must hold that:
+$A^T x \ge b $ and $-A^T x \ge -b$, which translates to  $A^T x \le b$ if 
+we multiply by -1. With that, the only option is that $A^T x = b$. With that 
+we arrive at our (P) problem. 
+
+\section{Interior point algorithm implementation}
+\subsection*{5)}
+Here we compute the dual of problem X. We can notice that this is 
+the (P) problem from task 2), so we need to firstly extract the vectors and 
+the  matrix: 
+\[
+x = 
+\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix}, \quad
+c = 
+\begin{bmatrix} -3 \\ -4 \\ 0 \\ 0 \\ 0 \end{bmatrix}, \quad
+b = 
+\begin{bmatrix} 4 \\ 3 \\ 4 \end{bmatrix}, \quad
+A = 
+\begin{bmatrix}
+3 & 3 & 3 & 0 & 0 \\
+3 & 1 & 0 & 1 & 0 \\
+1 & 4 & 0 & 0 & 1
+\end{bmatrix}
+\]
+Than we can simply use the formula shown in task 2) to calculate the dual which 
+now looks like the (D) problem from task 2). By evaluating the matrix 
+multiplications we get the requested dual problem:
+\[
+\max 4y_1 + 3y_2 + 4y_3
+\]
+
+\[
+\begin{aligned}
+3y_1 + 3y_2 + y_3 + s_1 &= -3 \\
+3y_1 + y_2 + 4y_3 + s_2 &= -4 \\
+3y_1 + s_3 &= 0 \\
+y_2 + s_4 &= 0 \\
+y_3 + s_5 &= 0 \\
+s_1, s_2, s_3, s_4, s_5 &\ge 0 \\
+y_1, y_2, y_3 &\in \mathbb{R}
+\end{aligned}
+\]
+\subsection*{6)}
+Since the elements of x and s are strictly positive, we only need to check 
+if $A x = b$ and $A^T y + s = c$. We confirmed that using Pyhthon and with that 
+we can claim that these vectors are strictly feasible solutions to both 
+problem X and it's dual.
+
+\subsection*{7)}
+To show that the vectors are a good starting solution, we need to check 
+the invariants from \cite{mehlhorn2016still} and the lectures. We already 
+checked the primal and dual feasibility in the previous task, so we only need 
+to satisfy the third one:
+\[
+\sigma^2 =\sum_{i=1}^{m} \left( \frac{x_i s_i}{\mu} - 1 \right)^2 \le \frac{1}{4}
+\]
+By picking $\mu$ ad the average of $x_i s_i$ and calculating the left-hand size we 
+get 0.0016, which easily satisfies the condition. Picking $\mu = 1$ is also 
+appropriate since we get 0.0025.
+
+
+
+
 
 
 \bibliographystyle{plain}  
