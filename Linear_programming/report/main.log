@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.6)  31 AUG 2025 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.6)  1 SEP 2025 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1130,29 +1130,39 @@ Overfull \hbox (1.16803pt too wide) detected at line 148
 \OML/lmm/m/it/9 x \OT1/lmr/m/n/9 = [] \OML/lmm/m/it/9 ;  c \OT1/lmr/m/n/9 = [] \OML/lmm/m/it/9 ;  b \OT1/lmr/m/n/9 = [] \OML/lmm/m/it/9 ;  A \OT1/lmr/m/n/9 = []
  []
 
-(main.bbl) [1{C:/Users/marko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
+[1{C:/Users/marko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 
-{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] (main.aux)
+{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 241.
+ (main.bbl) [2
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.270 \end{document}
+                    
+
+] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B884917F29984FEB5D459553D4807CDF;521.
+(rerunfilecheck)             Checksum: 6BC63FD20251436A1D963443ADB23C42;727.
  ) 
 Here is how much of TeX's memory you used:
- 14907 strings out of 474486
- 238802 string characters out of 5743756
- 1964542 words of memory out of 5000000
- 36906 multiletter control sequences out of 15000+600000
- 728558 words of font info for 130 fonts, out of 8000000 for 9000
+ 14935 strings out of 474486
+ 239188 string characters out of 5743756
+ 1968542 words of memory out of 5000000
+ 36923 multiletter control sequences out of 15000+600000
+ 735734 words of font info for 137 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 63i,13n,67p,628b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (1 page, 220260 bytes).
+ 63i,13n,67p,628b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/marko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (2 pages, 276479 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

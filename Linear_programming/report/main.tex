@@ -168,7 +168,7 @@ y_1, y_2, y_3 &\in \mathbb{R}
 Since the elements of x and s are strictly positive, we only need to check 
 if $A x = b$ and $A^T y + s = c$. We confirmed that using Pyhthon and with that 
 we can claim that these vectors are strictly feasible solutions to both 
-problem X and it's dual.
+problem X and its dual.
 
 \subsection*{7)}
 To show that the vectors are a good starting solution, we need to check 
@@ -181,7 +181,85 @@ to satisfy the third one:
 By picking $\mu$ ad the average of $x_i s_i$ and calculating the left-hand size we 
 get 0.0016, which easily satisfies the condition. Picking $\mu = 1$ is also 
 appropriate since we get 0.0025.
+\subsection*{8)}
+In this section we iterated our algorithm until it stabilized, by checking how
+much the primal and dual variables changed. We stopped when both changes 
+were less the $10^{-8}$. It took 220 itertions to reach that point. The final 
+points were: 
+\[
+x = \begin{bmatrix}
+0.444 & 0.889 & 1.49 \times 10^{-8} & 0.778 & 1.19 \times 10^{-8}
+\end{bmatrix}
+\]
+\[
+y = \begin{bmatrix}
+-0.889 & -5.11 \times 10^{-8} & -0.333
+\end{bmatrix}
+\]
+\[
+s =  \begin{bmatrix}
+    8.27\times10^{-8} & 4.14\times10^{-8} & 2.67 & 4.72\times10^{-8} & 0.333
+\end{bmatrix}
+\]
 
+\subsection*{9)}
+We can speed up the convergence by setting the mew to change adaptively. 
+By trial and error we deduct that we can use: 
+\[
+\mu = \frac{0.6  (x^T s) }{m}
+\]
+This way we reach convergence in 37 iterations, while also still satisfying the 
+invariants. 
+
+\subsection*{10)}
+Here we heuristically decide when to stop the process. When $\mu$ drops 
+below $10^{-6}$, we set the appropriate components of s and x to 0. 
+We obtain the same results as previously, with the difference that some of 
+the components are exactly 0 because we set them to zero. By doing that we 
+get extra collection of scalar equations:
+\[
+x_3 = 0 \]
+\[
+x_5 = 0 \]
+\[
+s_1 = 0 \]
+\[
+s_2 = 0 \]
+\[
+s_4 = 0
+\]
+\subsection{11)}
+To test weather our choice was correct, we solved the equations
+exactly using the Python sympy package (for symbolic solving). We achieve
+ the same results as before, therefore our choice was correct. To test if the 
+ solutions are indeed feasible and optimal we checked the criteria in 
+ Table~\ref{tab:feasibility_optimality}.
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l c}
+\hline
+\textbf{Check} & \textbf{Value} \\
+\hline
+Primal residual $\|Ax - b\|$ & $0.0$ \\
+Dual residual $\|A^T y + s - c\|$ & $0.0$ \\
+Complementary slackness $\max_i |x_i s_i|$ & $0.0$ \\
+Nonnegativity satisfied & \text{True} \\
+Objective gap $|c^T x - b^T y|$ & $0.0$ \\
+\hline
+\end{tabular}
+\caption{Feasibility and optimality diagnostics for the exact solution of the LP with heuristic rounding.}
+\label{tab:feasibility_optimality}
+\end{table}
+
+
+\section{Commercial solver}
+For this section, we used scipy's commercial solver and used it on problem X, 
+using both the simplex method and interior-point method. We found the same 
+optimum as in our implementations with both methods, however using the 
+commercial solver, we reached convergence a lot faster. Concretly, we needed 
+3 iterations for the simplex method and 5 iterations for the interior-point method.
 
 
 
